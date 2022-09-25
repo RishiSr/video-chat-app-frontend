@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
-  "homepage": "https://rishisr.github.io/video-chat-app",
+  "homepage": "https://rishisr.github.io/video-chat-app-frontend",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.4",
