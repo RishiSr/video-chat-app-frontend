@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+.app {
+  display: flex;
+  flex-flow: column;
+  background-color: #071E3D;
+  height: 100vh;
+  width: 100vw;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  color: #FFC045;
+  height: 100px;
+  background-color: #065471;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 3rem;
+  font-family: 'Nunito', sans-serif;
+
+}
+
+.maindiv {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2%;
+
+}
+
+.childdiv {
+  display: flex;
+}
+
+.videoplay {
+  border-radius: 16px;
+  overflow: hidden;
+
+}
+
+.nameo {
+  color: white;
+  font-size: 2.5rem;
+  text-align: center;
+
+}
+
+.videoplayer {
+  border-radius: 16px;
+  margin-left: 10px;
+  background-color: #278EA5;
+  height: min-content;
+}
+
+.mainbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.inputidme {
+  height: 4rem;
+  width: 20rem;
+  border-radius: 15px;
+  border: 2px solid #065471;
+  font-size: 2rem;
+  font-family: 'Nunito', sans-serif;
+  padding-left: 8px;
+  cursor: pointer;
+  background-color: #0C2233;
+  color: #f6ce7f;
+
+  margin: 1rem;
+}
+
+.meid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: min-content;
+
+}
+
+.meidname {
+  color: #f6ce7f;
+  font-size: 2rem;
+  padding: 0;
+  margin: 1.5rem;
+  margin-bottom: 0.1rem;
+  font-family: 'Nunito', sans-serif;
+
+}
+
+.buttoncopy {
+  height: 3rem;
+  width: 10rem;
+  font-size: 1rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border: 2px solid #f6ce7f;
+  background-color: #023577;
+  border-radius: 3px;
+  color: azure;
+  cursor: pointer;
+
+}
+
+.leavecall {
+  height: 3rem;
+  width: 10rem;
+  font-size: 1rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border: 2px solid;
+  background-color: #e4430d;
+  border-radius: 3px;
+  color: azure;
+  cursor: pointer;
+}
+
+.acceptcall {
+  height: 3rem;
+  width: 10rem;
+  font-size: 1rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border: 2px solid;
+  background-color: #05a310;
+  border-radius: 3px;
+  color: azure;
+  cursor: pointer;
+}
+
+.inputidmeother {
+  height: 4rem;
+  width: 20rem;
+  border-radius: 15px;
+  border: 2px solid #065471;
+  font-size: 1.4rem;
+  font-family: 'Nunito', sans-serif;
+  padding-left: 8px;
+  cursor: pointer;
+  background-color: #0C2233;
+  color: #f6ce7f;
+
+  margin: 1rem;
+}
+
+.popup {
+  margin: auto;
+  position: absolute;
+  bottom: 12rem;
+  align-self: center;
+  vertical-align: middle;
+  background-color: #065471;
+  height: 10rem;
+  width: 30rem;
+  display: flex;
+  color: #f6ce7f;
+  border: 2px solid #032b4a;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  border-radius: 10px;
+
+}
+
+.popupinside {
+  width: fit-content;
+}
+
+.buttonanswer {
+  height: fit-content;
+  width: fit-content;
+  font-size: 2rem;
+  padding: 0.5rem;
+  background-color: #05a310;
+  color: white;
+  border-radius: 10px;
+}
+
+.buttonhangup {
+  margin-top: 0.5rem;
+  height: fit-content;
+  width: fit-content;
+  font-size: 2rem;
+  padding: 0.5rem;
+  background-color: #e4430d;
+  color: white;
+  border-radius: 10px;
+}
