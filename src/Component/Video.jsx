@@ -15,6 +15,7 @@ const Video = () => {
 
         <div className="maindiv">
             <div className="childdiv">
+                {console.log(stream)}
                 {stream && (
                     <div className="videoplayer">
 
